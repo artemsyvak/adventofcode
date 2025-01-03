@@ -6,3 +6,7 @@ func Abs(x int) int {
 	}
 	return x
 }
+
+func ToBool(num int) bool {
+	return num != 0
+}
